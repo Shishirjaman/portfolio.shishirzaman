@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--%%%%%%%%%%% UNICONS %%%%%%%%%%%%%%%%%%% -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--############# CSS ######################-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+    <!--############ FAVICON ###################-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+    <!--################ Header ################-->
+        <nav id="header">
+            <div class="nav-logo">
+
+                <p class="nav-name">Shishir</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link" onclick="myMenuFunction()">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link" onclick="myMenuFunction()">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#experience" class="nav-link" onclick="myMenuFunction()">Experience</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#publication" class="nav-link" onclick="myMenuFunction()">Publication</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#skills" class="nav-link" onclick="myMenuFunction()">Skills</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#education" class="nav-link" onclick="myMenuFunction()">Education</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="nav-link" onclick="myMenuFunction()">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#award" class="nav-link" onclick="myMenuFunction()">Award</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link" onclick="myMenuFunction()">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+    <!--################ Main ##################-->
+    <main class="wrapper">
+        <!--################ Featured Box ##################-->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Shishir Zaman</span>
+                </div>
+                <div class="featured-name">
+                    <p><span class="typedText">Graduate Student</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Bishop's University</p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn" onclick="location.href = '#contact'">Contact me</button>
+                    <a href="assets/PDF/CV_SHISHIR_ZAMAN.pdf" download><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+                </div>
+                <div class="social-icons">
+                    <div class="icon"><i class="uil uil-graduation-cap"></i></div>
+                    <div class="icon" onclick="window.open('https://www.linkedin.com/in/shishir-zaman-4b09b5139/')">
+                        <i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon" onclick="window.open('https://github.com/Shishirjaman')"><i class="uil uil-github-alt"></i></div>
+                </div>
+            </div>
+
+            <div class="featured-image">
+                <div class="image">
+                    <img src="assets/images/ppp.jpeg" alt="avatar">
+                </div>
+            </div>
+
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll Down</p>
+                </a>
+            </div>
+        </section>
+        <!--################ About Box##################-->
+        <section class="section" id="about">
+            <div class="top-header">
+                <h1>About Me <i class="uil uil-user"></i></h1>
+            </div>
+            <div class="row">
+                    <div class="about-info">
+                        <p>I am a Graduate Student(thesis-based) at the Department of Computer Science at Bishops' University. My primary research
+                            interest in Image Processing (medical) & Forecasting. 
+                        </p>
+                        <p>
+                            Previously, I was a Software Engineer at BJIT Limited, Bangladesh. I Completed my BSc in Computer Science and Engineering
+                            from East West University, Bangladesh. During my undergrad, I worked with Dr. Shamim H Ripon on Forecasting.
+                        </p>
+                    </div>
+            </div>
+        </section>
+
+        <!--################ Experience Box ##################-->
+        <section class="section" id="experience">
+            <div class="top-header">
+                <h1>Experience <i class="uil uil-briefcase-alt"></i></h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="experience-box">
+                        <h3>BJIT Limited</h3>
+                        <label>Software Engineer</label>
+                        <label>April 2022 - June 2023</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="experience-box">
+                        <h3>East West University</h3>
+                        <label>Undergraduate Teaching Assistant</label>
+                        <label>January 2021 - June 2021</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--################ Publication Box##################-->
+        <section class="section" id="publication">
+            <div class="top-header">
+                <h1>Publication <i class="uil uil-books"></i></h1>
+            </div>
+            <div class="row">
+                    <div class="publication-info">
+                        <h3>Deep Learning Approach for Electricity Load Forecasting Using Multivariate Time Series Data 
+                        <a href="https://link.springer.com/chapter/10.1007/978-981-19-2347-0_62" target="_blank">
+                            <i class="uil uil-link-alt"></i></a></h3>
+                        <p>Shishir Zaman, Md Nayeem, Rifah Tatrapi, Shamim Ripon.</p>
+                        <p>
+                            International Conference on Machine Intelligence & Data Science Applications (MIDAS 2021),
+                             December 26-27, 2021, Lecture Notes on Data Engineering and Communications Technologies, Springer.
+                        </p>
+                    </div>
+            </div>
+        </section>
+
+         <!--################ Skills Box ##################-->
+         <section class="section" id="skills">
+            <div class="top-header">
+                <h1>Skills <i class="uil uil-brain"></i></h1>
+            </div>
+            <div class="row">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Programming Language</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Python</span>
+                        <span>C/C++</span>
+                        <span>JavaScript</span>
+                        <span>HTML, CSS</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Data Analysis, Processing & Visualization</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Pandas</span>
+                        <span>Numpy</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>Plotly</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>SQlite3</span>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="row">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Framework</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Scikit-learn</span>
+                        <span>Tensorflow 2</span>
+                        <span>Keras</span>
+                        <span>Pytorch</span>
+                        <span>Pyside6</span>
+                        <span>Django</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>UML Diagram Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Draw.io</span>
+                        <span>Lucid Chart</span>
+                        <span>Visual Paradigm</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Hardware</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>ATmega32</span>
+                        <span>Arduino</span>
+                        <span>STM32</span>
+                        <span>ESP32</span>
+                        <span>CL-450(HED)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Coding Standard</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Barr-C</span>
+                        <span>MISRA-C</span>
+                    </div>
+                </div>
+            </div>
+         </section>       
+
+         <!--################ Education Box##################-->
+        <section class="section" id="education">
+            <div class="top-header">
+                <h1>Education <i class="uil uil-graduation-cap"></i></h1>
+            </div>
+            <div class="row">
+                    <div class="education-info">
+                        <h3 class="BU">Bishops University</h3>
+                        <p>Pursuing MSc in Computer Science(thesis-based)</p>
+                        <p>January 2024 - Present</p>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="education-info">
+                    <h3 class="EWU">East West University</h3>
+                    <p>BSc in Computer Science & Engineering</p>
+                    <p>May 2017 - July 2021</p>
+                </div>
+        </div>
+        </section>
+
+        <!--################ Project Box ##################-->
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Mini-Projects <i class="uil uil-check-circle"></i></h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <!-- <i class="uil uil-briefcase-alt"></i> -->
+                    <h3>Emotion Detection from Text (Twitter Tweets)</h3>
+                    <label>WordNetLemmatizer, Bag of Word, TF-IDF, SVM, Multinomial NB, Random Forest</label>
+                </div>
+                <div class="project-box">
+                    <!-- <i class="uil uil-users-alt"></i> -->
+                    <h3>Spam email detection using MNB (Scratch)</h3>
+                    <label> Pandas, SciPy, Multinomial NB (from Scratch)</label>
+                </div>
+                <div class="project-box">
+                    <!-- <i class="uil uil-award"></i> -->
+                    <h3>Corona Updates and Test Management System</h3>
+                    <label>HTML5, CSS, Bootstrap, JavaScript, Ajax, Chart js, Django and Sqlite3</label>
+                </div>
+            </div>
+        </section>
+
+        <!--################ Award & Honors Box ##################-->
+        <section class="section" id="award">
+            <div class="top-header">
+                <h1>Award and Honors <i class="uil uil-award"></i></h1>
+            </div>
+            <div class="row">
+                    <div class="award-info">
+                        <h3>Scholarship Award(Medha Lalon Fund)</h3>
+                        <p>East West University</p>
+                        <p>Year: 2020-2021</p>
+                    </div>
+            </div>
+        </section>
+
+        <!--################ Contact Box ##################-->
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Get in Touch <i class="uil uil-users-alt"></i></h1>
+            </div>
+            <div class="row">
+                    <div class="contact-info">
+                        <h2>Find me <i class="uil uil-location-arrow"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email: shishirjaman.sj@gmail.com</p>
+                        <p><i class="uil uil-phone"></i> Mobile: (+1)819-570-5040</p>
+                    </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ############### Footer ################ -->
+    <footer>
+        <div class="top-footer">
+            <p>Shishir Zaman</p>
+        </div>
+        <!-- <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer-menu-list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div> -->
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-graduation-cap"></i></div>
+            <div class="icon" onclick="window.open('https://www.linkedin.com/in/shishir-zaman-4b09b5139/')">
+                <i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon" onclick="window.open('https://github.com/Shishirjaman')"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Shishir Zaman</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ############## Typing JS Link ########## -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ############## Scroll Reveal JS Link ##### -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ############# Main JS #################### -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
