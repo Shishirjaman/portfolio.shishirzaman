@@ -351,6 +351,12 @@ h3{
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
+.experience-box h3{
+    cursor:default;
+}
+.space{
+    margin-top: 10px;
+}
 
 /* ------------------- Publication Box ----------------------- */
 .publication-info{
@@ -449,6 +455,7 @@ h3{
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
     text-align: center;
+    cursor: pointer;
 }
 
 .project-box>i{
@@ -459,10 +466,12 @@ h3{
 .project-box label{
     font-size: 15px;
     color: #777;
+    cursor: pointer;
 }
 .project-box::after, 
 .contact-info::after,
-.experience-box::after
+.experience-box::after,
+.note-box::after
 {
     content: "";
     position: absolute;
@@ -475,16 +484,49 @@ h3{
 }
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after,
-.experience-box:hover.experience-box::after{
+.experience-box:hover.experience-box::after,
+.note-box:hover.note-box::after{
     bottom: 0;
 }
 .project-box:hover.project-box i,
 .project-box:hover.project-box>h3,
 .project-box:hover.project-box>label,
 .experience-box:hover.experience-box>h3,
-.experience-box:hover.experience-box>label{
+.experience-box:hover.experience-box>label,
+.note-box:hover.note-box>h3{
     color: var(--color-white);
     z-index: 2;
+}
+
+/* -------------------- Certificate Box ----------------------- */
+.certificate-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
+    background: var(--color-white);
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.certificate-info h3{
+    margin-top: 10px;
+    color: var(--first-color-hover);
+}
+
+.certificate-info p{
+    text-align: justify;
+    font-size: 18px;
+    color: #777;
+}
+.certificate-info i{
+    color: var(--first-color);
+    font-size: 22px;
+    font-weight: 900;
 }
 
 /* -------------------- Award Box ----------------------------- */
@@ -525,6 +567,7 @@ h3{
     border-radius: 10px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
+    cursor: default;
 }
 .contact-info>h2{
     color: var(--color-white);
@@ -551,6 +594,24 @@ h3{
 .contact-info:hover.contact-info i{
     color: #777;
     z-index: 2;
+}
+
+/* ------------------- Note Box ----------------------- */
+.note-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 30px;
+    width: 100%;
+    height: 250px;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
 }
 
 /* ---------------------- Footer -------------------------- */

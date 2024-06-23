@@ -59,6 +59,9 @@ sr.reveal('.experience-box', {interval : 200})
 // ----------- Project Box ----------------
 sr.reveal('.project-box', {interval : 200})
 
+// ----------- Note Box ----------------
+sr.reveal('.note-box', {interval : 200})
+
 // ----------- Headings ------------------
 sr.reveal('.top-header', {})
 
@@ -73,6 +76,7 @@ const srLeft = ScrollReveal({
 srLeft.reveal('.publication-info', {delay : 100})
 srLeft.reveal('.education-info', {delay : 100})
 srLeft.reveal('.contact-info', {delay : 100})
+srLeft.reveal('.certificate-info', {delay : 100})
 
 // ------------ Skills & Form Box --------------
 const srRight = ScrollReveal({
